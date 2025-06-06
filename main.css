@@ -1,16 +1,22 @@
-/* Style for the Subscribe button */
+/* Style for the Subscribe button - Dark Mode */
 .subscribe-button {
-  background-color: #007BFF;  /* Blue background */
-  color: white;               /* White text */
-  padding: 10px 20px;         /* Top/bottom and left/right padding */
-  border: none;               /* No border */
-  border-radius: 5px;         /* Slightly rounded corners */
+  background-color: #1e1e1e;  /* Dark gray background */
+  color: #f5f5f5;             /* Light text */
+  padding: 10px 20px;         /* Padding around text */
+  border: none;               /* Remove default border */
+  border-radius: 5px;         /* Rounded corners */
   cursor: pointer;            /* Pointer cursor on hover */
-  font-size: 16px;            /* Readable font size */
-  transition: background-color 0.3s ease;  /* Smooth hover effect */
+  font-size: 16px;            /* Button text size */
+  transition: background-color 0.3s ease;  /* Smooth transition */
 }
 
-/* Hover effect */
+/* Hover effect - slightly lighter background */
 .subscribe-button:hover {
-  background-color: #0056b3;  /* Darker blue on hover */
+  background-color: #333333;  /* Slightly lighter on hover */
+}
+
+/* Base page colors - Dark Mode */
+body {
+  background-color: #121212;  /* Overall dark background */
+  color: #e0e0e0;             /* Light body text */
 }
